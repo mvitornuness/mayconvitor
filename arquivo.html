@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Música</title>
+    <link rel="stylesheet" href="desing2.css">
+</head>
+<body>
+  
+  
+  <form id="musicaForm">
+    <fieldset>
+    <h1 style="color: aliceblue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; font-size: 31px;">Cadastro de Música</h1>
+
+   
+    <label for="nomeMusica"></label><br>
+    <input placeholder="musica" type="text" id="nomeMusica" required><br>
+
+    <label for="autorMusica"></label><br>
+    <input placeholder="autor da musica" type="text" id="autorMusica" required><br>
+
+    <button id="cadastro" type="submit">Cadastrar</button>
+    <button id="excluir" type="button" onclick="limparTudo()">Excluir tudo</button>
+  </fieldset>
+  
+  </form>
+
+  
+  
+  <p></p>
+
+
+  <div id="resposta">
+    
+    <div id="resposta-inside">
+<fieldset> 
+    <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Músicas Cadastradas:</h2>
+    <ul id="listaMusicas"></ul>
+  </fieldset>
+
+</div>
+  </div>
+ 
+</body>
+
+<script src="lista.js"> </script>
+  </body>
+</html>
