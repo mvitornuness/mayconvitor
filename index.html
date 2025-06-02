@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="desing.css" />
+  </head>
+  <body>
+    <form id="formulario" onsubmit="return validado()">
+      <fieldset>
+        <img
+          id="imagem"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/2024_Spotify_logo_without_text.svg/250px-2024_Spotify_logo_without_text.svg.png"
+          width="50px"
+        />
+        <p></p>
+        <b
+          style="
+            color: rgb(255, 255, 255);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+              sans-serif;
+          "
+          >LOGIN NO SPOTIFY
+        </b>
+        <p></p>
+        <label for="email">
+          <input
+            placeholder="endereço de e-mail"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+        </label>
+        <p></p>
+
+        <label for="senha">
+          <input
+            placeholder="senha"
+            type="password"
+            id="senha"
+            name="senha"
+            required
+          />
+        </label>
+
+        <div id="botao">
+          <button style="color: aliceblue" type="submit" id="linke">
+            entrar
+          </button>
+        </div>
+
+        <div id="direto"></div>
+      </fieldset>
+    </form>
+
+    <script src="java.js"></script>
+  </body>
+</html>
